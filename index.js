@@ -3,10 +3,42 @@ let teamTwoScore = document.getElementById("team-two-score")
 
 console.log(teamOneScore)
 
-teamOneScore = 0
-teamTwoScore = 0
+scoreOne = 0
+scoreTwo = 0
 
 function plusOneTeamOne() {
-    teamOneScore += 1
-    teamOneScore.textContent = teamOneScore
+    scoreOne += 1
+    teamOneScore.textContent = scoreOne
+}
+
+function plusTwoTeamOne() {
+    scoreOne += 2
+    teamOneScore.textContent = scoreOne
+}
+
+function plusThreeTeamOne() {
+    scoreOne += 3
+    teamOneScore.textContent = scoreOne
+}
+
+function plusOneTeamTwo() {
+    scoreTwo += 1
+    teamTwoScore.textContent = scoreTwo
+}
+
+function plusTwoTeamTwo() {
+    scoreTwo += 2
+    teamTwoScore.textContent = scoreTwo
+}
+
+function plusThreeTeamTwo() {
+    scoreTwo += 3
+    teamTwoScore.textContent = scoreTwo
+}
+
+function reset() {
+    scoreOne = 0
+    scoreTwo = 0
+    teamOneScore.textContent = scoreOne
+    teamTwoScore.textContent = scoreTwo
 }
