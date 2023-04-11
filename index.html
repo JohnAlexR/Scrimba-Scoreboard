@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Scoreboard</title>
+    <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="main-score">
+            <div class="team-one">
+                <div class="team-name">
+                    <h2>Team one</h2>
+                </div>
+                <div class="score">
+                    <p id="team-one-score">0</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="plusOneTeamOne()">+1</button>
+                    <button>+2</button>
+                    <button>+3</button>
+                </div>
+            </div>
+            <div class="team-two">
+                <div class="team-name">
+                    <h2>Team two</h2>
+                </div>
+                <div class="score">
+                    <p id="team-two-score">0</p>
+                </div>
+                <div class="buttons">
+                    <button>+1</button>
+                    <button>+2</button>
+                    <button>+3</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-reset">
+            <button>Reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

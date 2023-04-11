@@ -1,0 +1,47 @@
+body {
+    background-color: darkcyan;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-score {
+    display: flex;
+}
+
+.team-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    border: 2px solid rgb(70, 68, 68);
+    background-color: rgb(70, 68, 68);
+    color: rgb(255, 247, 0);
+    text-shadow: 0 0 2px black;
+    margin: 8px;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.buttons {
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+.main-reset {
+    margin-top: 10px;
+}
