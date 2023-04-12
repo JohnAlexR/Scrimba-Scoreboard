@@ -39,6 +39,6 @@ function plusThreeTeamTwo() {
 function reset() {
     scoreOne = 0
     scoreTwo = 0
-    teamOneScore.textContent = scoreOne
+    teamOneScore.textContent = scoreOne 
     teamTwoScore.textContent = scoreTwo
 }
